@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Прогноз погоды</string>
+    <string name="city">_Город_</string>
+    <string name="date">_Дата_</string>
+    <string name="temperature">_Температура_</string>
+    <string name="update">Обновить</string>
+    <string name="settings">Настройки</string>
+</resources>
