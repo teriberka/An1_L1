@@ -13,6 +13,7 @@
     <string name="test">москва</string>
     <string name="sound_enable">Вкл/Выкл звук</string>
     <string name="color_scheme">Цветовая схема</string>
+    <string name="_0">0</string>
 
     <string-array name="cities">
         <item>Москва</item>

@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "onSaveInstanceState", Toast.LENGTH_SHORT).show();
         String text = temperatureTextView.getText().toString();
         saveInstanceState.putString(temperatureDataKey, text);
-        saveInstanceState.putSerializable("someKey", DataContainer.getInstance());
+        saveInstanceState.putSerializable("data_container_key", DataContainer.getInstance());
 
         super.onSaveInstanceState(saveInstanceState);
     }
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
         String text = savedInstanceState.getString(temperatureDataKey);
         temperatureTextView.setText(text);
 
-        //DataContainer container = (DataContainer)savedInstanceState.getSerializable("someKey");
+        DataContainer container = (DataContainer)savedInstanceState.getSerializable("data_container_key");
     }
 
     private void findViews() {

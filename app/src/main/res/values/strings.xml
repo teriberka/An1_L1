@@ -14,8 +14,6 @@
     <string name="sound_enable">Sound Enable</string>
     <string name="color_scheme">Color Scheme</string>
     <string name="_0">0</string>
-    <string name="_0">0</string>
-    <string name="_0">0</string>
 
     <string-array name="cities">
         <item>"Moscow"</item>
