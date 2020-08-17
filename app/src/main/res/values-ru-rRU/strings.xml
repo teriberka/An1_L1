@@ -5,4 +5,18 @@
     <string name="temperature">_Температура_</string>
     <string name="update">Обновить</string>
     <string name="settings">Настройки</string>
+    <string name="wind">Отображать ветер</string>
+    <string name="humidity">Отображать влажность</string>
+    <string name="pressure">Отображать давление</string>
+    <string name="set">Установить настройки</string>
+    <string name="autocompletetextviewcity">Город</string>
+    <string name="test">москва</string>
+    <string name="sound_enable">Вкл/Выкл звук</string>
+    <string name="color_scheme">Цветовая схема</string>
+
+    <string-array name="cities">
+        <item>Москва</item>
+        <item>Новосибирск</item>
+        <item>Казань</item>
+    </string-array>
 </resources>
