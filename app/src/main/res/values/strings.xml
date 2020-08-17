@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Weather Forecast</string>
+    <string name="city">_City_</string>
+    <string name="date">_Date_</string>
+    <string name="temperature">_Temperature_</string>
+    <string name="update">Update</string>
+    <string name="settings">Settings</string>
+    <string name="wind">Wind</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="set">Set</string>
+    <string name="autocompletetextviewcity">AutoCompleteTextView</string>
+    <string name="test">москва</string>
+    <string name="sound_enable">Sound Enable</string>
+    <string name="color_scheme">Color Scheme</string>
+
+    <string-array name="cities">
+        <item>"Moscow"</item>
+        <item>"Novosibirsk"</item>
+        <item>"Kazan"</item>
+    </string-array>
 </resources>
